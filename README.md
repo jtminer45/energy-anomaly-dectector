@@ -26,6 +26,7 @@ Place `AEP_hourly.csv` in the `data/` folder to reproduce this project.
 |----------|-------------|
 | `01_eda.ipynb` | Time series EDA — hourly and monthly consumption patterns, distribution analysis |
 | `02_cleaning.ipynb` | Time series cleaning, feature engineering, MinMaxScaler normalisation, sliding window creation |
+| `03_autoencoder.ipynb` | PyTorch autoencoder — training, reconstruction error analysis, anomaly detection and visualisation |
 
 ## Key EDA Findings
 - Energy consumption follows a clear U-shaped seasonal pattern — high in winter and summer, low in spring and autumn
